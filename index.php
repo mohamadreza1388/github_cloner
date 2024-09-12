@@ -16,10 +16,9 @@ function clone_repository($repo_url) {
 }
 
 mkdir("result");
-    chdir("result");
+chdir("result");
 
 foreach ($repositories as $repo_url) {
-    
     clone_repository($repo_url);
 }
 ?>
