@@ -1,8 +1,7 @@
 <?php
 $repositories = [
-    "https://github.com/user/repo1",
-    "https://github.com/user/repo2",
-    "https://github.com/user/repo3"
+    "https://github.com/mohamadreza1388/update_commit",
+    "https://github.com/mohamadreza1388/google_page",
 ];
 
 function clone_repository($repo_url) {
